@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h6{
+    font-weight: 700;
+}
+
+.Ocultar{
+    display: none;
+}
+
+.hero{
+    margin: 5rem;
+}
+.tituloP{
+    font-family: 'Montserrat', sans-serif; 
+    margin-left: 20px;    
+    font-weight: 700;
+}
+
+.navbarContainer{
+    width: 1190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cardContainer{
+    font-family: 'Mulish', sans-serif;
+    max-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    border:none;
+    margin: 1rem 1rem;
+}
+.photo{
+    padding: 0;
+    margin: 0;
+    width: 25rem;
+}
+
+.foto{
+    margin: 0;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 500,
+        'GRAD' 0,
+        'opsz' 48;
+    color:  #EB5757
+}
+
+.description{
+    display: flex;
+    justify-content: space-between
+}
+
+.SuperHost{
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+    border: solid rgb(136, 132, 132) 2px ;
+    padding: 5px;
+    color: rgb(106, 103, 103);
+}

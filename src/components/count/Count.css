@@ -1,0 +1,28 @@
+#contContainer{
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    height: 20rem;
+    margin-right: 35rem;
+    margin-top: 2rem;
+}
+
+.count{    
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 2rem  0rem;
+}
+
+.botonC{
+    background: transparent;
+    margin-right:  auto;
+    border: solid 0.5px rgb(209, 208, 208);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.total{
+    margin-right: 2rem;
+}
+
